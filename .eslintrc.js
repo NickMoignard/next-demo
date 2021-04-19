@@ -1,5 +1,5 @@
 module.exports = {
-  // Settings detect react version
+  // Settings
   // ====================================================================
   settings: {
     react: {
