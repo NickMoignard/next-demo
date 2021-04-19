@@ -18,9 +18,13 @@ module.exports = {
   // Extends
   // ====================================================================
   extends: [
-    "eslint:recommended",
+    "airbnb",
     "plugin:react/recommended",
     "plugin:prettier/recommended",
+    "plugin:jsx-a11y/recommended",
+    "plugin:react-hooks/recommended",
+    "plugin:import/errors",
+    "plugin:import/warnings",
   ],
 
   // Parser
@@ -37,7 +41,7 @@ module.exports = {
 
   // Plugins
   // ====================================================================
-  plugins: ["react"],
+  plugins: ["react", "jsx-a11y", "react-hooks", "import", "prettier"],
 
   // Rules Config
   rules: {
