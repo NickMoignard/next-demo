@@ -1,3 +1,3 @@
-export interface Hello {
-  world: string;
+export interface HelloWorldProps {
+  text: string;
 }
