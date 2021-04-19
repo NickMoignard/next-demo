@@ -25,12 +25,12 @@ module.exports = {
     "plugin:react-hooks/recommended",
     "plugin:import/errors",
     "plugin:import/warnings",
+    "plugin:@typescript-eslint/recommended",
   ],
 
   // Parser
   // ====================================================================
-  // Typescript parser
-  // parser: '@typescript-eslint/parser',
+  parser: "@typescript-eslint/parser",
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
@@ -41,7 +41,14 @@ module.exports = {
 
   // Plugins
   // ====================================================================
-  plugins: ["react", "jsx-a11y", "react-hooks", "import", "prettier"],
+  plugins: [
+    "react",
+    "jsx-a11y",
+    "react-hooks",
+    "import",
+    "prettier",
+    "@typescript-eslint",
+  ],
 
   // Rules Config
   rules: {
